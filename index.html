@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div class="page1">
+        <h2><span>W</span>eather</h2>
+        <div class="right">
+          <i class="fa-solid fa-house"></i>
+          <h2>Home</h2>
+        </div>
+      </div>
+      <div class="page2">
+        <input type="text" placeholder="Search Location" />
+        <div class="icon-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <h2>Search</h2>
+        </div>
+      </div>
+      <div class="page3">
+        <div class="radio-btn">
+          <input
+            type="radio"
+            id="celsius"
+            name="temp"
+            value="celsius"
+            checked
+          />
+          <label for="celsius">Celsius</label>
+
+          <input type="radio" id="fahrenheit" name="temp" value="fahrenheit" />
+          <label for="fahrenheit">Fahrenheit</label>
+        </div>
+      </div>
+      <div class="page4">
+        <div class="cont-left">
+          <div class="content-up">
+            <div class="location">
+              <h3>Pune</h3>
+              <p>India</p>
+            </div>
+            <div class="degree">
+              <h1>17 C</h1>
+              <p>Light Rain</p>
+            </div>
+          </div>
+          <div class="content-down">
+            <div class="wrap">
+              <div class="warp2">
+                <div class="details">
+                  <i class="fa-solid fa-gear"></i>
+                  <p>7 - 25 C</p>
+                </div>
+                <div class="details">
+                  <i class="fa-solid fa-droplet"></i>
+                  <p>84%</p>
+                </div>
+                <div class="details">
+                  <i class="fa-regular fa-compass"></i>
+                  <p>East-West</p>
+                </div>
+              </div>
+
+              <div class="image">
+                <img src="img.png" alt="img" />
+              </div>
+            </div>
+          </div>
+
+          <h2>Current Weather</h2>
+        </div>
+        <div class="cont-right">
+          <div class="heading">
+            <h2>5 Days Forecast</h2>
+          </div>
+          <div class="content">
+            <div class="details2">
+              <p>1 January 2024</p>
+              <h1>18 C</h1>
+              <h3>Light Rain</h3>
+              <img src="img.png" alt="img" />
+              <div class="bottom-layer2">
+                <h2>Day 1</h2>
+              </div>
+            </div>
+            <div class="details2">
+              <p>2 January 2024</p>
+              <h1>22 C</h1>
+              <h3>Light Rain</h3>
+              <img src="img.png" alt="img" />
+              <div class="bottom-layer2">
+                <h2>Day 2</h2>
+              </div>
+            </div>
+            <div class="details2">
+              <p>3 January 2024</p>
+              <h1>28 C</h1>
+              <h3>Light Rain</h3>
+              <img src="img.png" alt="img" />
+              <div class="bottom-layer2">
+                <h2>Day 3</h2>
+              </div>
+            </div>
+            <div class="details2">
+              <p>4 January 2024</p>
+              <h1>35 C</h1>
+              <h3>Light Rain</h3>
+              <img src="img.png" alt="img" />
+              <div class="bottom-layer2">
+                <h2>Day 4</h2>
+              </div>
+            </div>
+            <div class="details2">
+              <p>5 January 2024</p>
+              <h1>40 C</h1>
+              <h3>Light Rain</h3>
+              <img src="img.png" alt="img" />
+              <div class="bottom-layer2">
+                <h2>Day 5</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
